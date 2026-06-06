@@ -1,0 +1,23 @@
+<svg width="360" height="96" viewBox="0 0 360 96" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Carrera">
+  <title>Carrera</title>
+  <!-- Mark -->
+  <g transform="translate(4,4)">
+    <rect width="88" height="88" rx="20" fill="#0D9488"/>
+    <rect width="88" height="88" rx="20" fill="url(#carrera-gloss-wm)" opacity="0.15"/>
+    <path d="M64 30 C 57 22, 42 19, 33 27 C 24 35, 24 53, 33 61 C 42 69, 57 66, 64 58"
+          stroke="#FFFFFF" stroke-width="7.5" fill="none" stroke-linecap="round"/>
+    <path d="M46 44 L 64 44 M 57 37 L 64 44 L 57 51"
+          stroke="#FBBF24" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="108" y="64"
+        font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif"
+        font-size="44" font-weight="700" letter-spacing="-0.5"
+        fill="#0F172A">Carrera</text>
+  <defs>
+    <linearGradient id="carrera-gloss-wm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>
