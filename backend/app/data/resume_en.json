@@ -1,0 +1,210 @@
+{
+  "full_name": "John Doe",
+  "email": "john.doe@example.com",
+  "phone": "",
+  "location": "São Paulo, Brazil",
+  "linkedin": "linkedin.com/in/johndoe",
+  "website": "",
+  "summary": "Strategy and operations professional with 10+ years of experience spanning portfolio management, business development, program management, and innovation. Proven track record of driving organizational growth, managing institutional partnerships, and leading cross-functional teams across financial, educational, and social impact sectors. MSc in Computer Science from State University.",
+  "experience": [
+    {
+      "company": "Acme Corp",
+      "title": "Portfolio Management Analyst",
+      "start_date": "2022-01",
+      "end_date": null,
+      "location": "São Paulo, Brazil",
+      "bullets": [
+        "Manage B2B relationships with institutional investors across a residential real estate portfolio",
+        "Lead financial closing processes for property acquisitions and investor reporting",
+        "Develop performance dashboards and reports for senior stakeholders using Excel and BI tools",
+        "Coordinate cross-functional teams (legal, operations, finance) to meet deal deadlines",
+        "Analyze portfolio metrics including occupancy rate, yield, and IRR to inform investment decisions"
+      ],
+      "keywords": [
+        "portfolio management",
+        "institutional investors",
+        "B2B",
+        "financial modeling",
+        "real estate",
+        "IRR",
+        "reporting",
+        "stakeholder management",
+        "cross-functional coordination"
+      ]
+    },
+    {
+      "company": "Creative Solutions",
+      "title": "Innovation Pedagogy Lead",
+      "start_date": "2020-06",
+      "end_date": "2022-01",
+      "location": "São Paulo, Brazil",
+      "bullets": [
+        "Designed and delivered professional development programs focused on innovation for public sector creative and cultural managers",
+        "Developed curriculum for entrepreneurship and business model workshops reaching 200+ participants",
+        "Managed vendors and facilitators for delivery of 15+ programs across São Paulo",
+        "Built monitoring and evaluation frameworks to track program outcomes and ROI",
+        "Collaborated with government stakeholders (SP Secretariat of Culture) on programmatic strategy"
+      ],
+      "keywords": [
+        "program design",
+        "curriculum development",
+        "training",
+        "facilitation",
+        "innovation",
+        "entrepreneurship",
+        "public sector",
+        "stakeholder management",
+        "monitoring and evaluation"
+      ]
+    },
+    {
+      "company": "Delta Finance",
+      "title": "Head of Business",
+      "start_date": "2019-03",
+      "end_date": "2020-06",
+      "location": "São Paulo, Brazil",
+      "bullets": [
+        "Led commercial strategy and business development for an independent investment manager",
+        "Built and maintained client pipeline, managing relationships with high-net-worth individuals",
+        "Developed marketing strategy and positioning to differentiate the firm in the market",
+        "Coordinated regulatory compliance and operational processes with compliance team",
+        "Grew revenue by 30%+ through new client acquisition and upselling of existing accounts"
+      ],
+      "keywords": [
+        "business development",
+        "commercial strategy",
+        "client management",
+        "marketing",
+        "investment advisory",
+        "revenue growth",
+        "compliance",
+        "CRM"
+      ]
+    },
+    {
+      "company": "Global Tech Foundation",
+      "title": "Program Manager",
+      "start_date": "2017-08",
+      "end_date": "2019-03",
+      "location": "São Paulo, Brazil",
+      "bullets": [
+        "Managed entrepreneurship acceleration programs serving 500+ SMEs across Brazil",
+        "Coordinated a network of 50+ mentors and subject-matter experts for cohort delivery",
+        "Tracked KPIs and produced quarterly impact reports for the foundation's global leadership",
+        "Managed partner relationships with university and corporate partners for program co-delivery",
+        "Designed and iterated program curriculum based on participant feedback and impact data"
+      ],
+      "keywords": [
+        "program management",
+        "entrepreneurship",
+        "SME",
+        "mentoring",
+        "KPIs",
+        "impact measurement",
+        "partnership management",
+        "curriculum design"
+      ]
+    },
+    {
+      "company": "State University",
+      "title": "Executive Assistant to the Dean",
+      "start_date": "2015-03",
+      "end_date": "2017-08",
+      "location": "São Paulo, Brazil",
+      "bullets": [
+        "Supported the Dean of FEA-USP on agenda management, communications, and strategic initiatives",
+        "Coordinated cross-departmental projects and tracked action items from board meetings",
+        "Produced briefings, presentations, and reports for internal and external stakeholders",
+        "Managed partnerships with corporate recruiters and alumni network events",
+        "Liaised with government bodies and international university partners"
+      ],
+      "keywords": [
+        "executive support",
+        "stakeholder coordination",
+        "project management",
+        "communications",
+        "institutional relations",
+        "event management"
+      ]
+    },
+    {
+      "company": "Innovation Agency",
+      "title": "Entrepreneurship Education Specialist",
+      "start_date": "2013-06",
+      "end_date": "2015-03",
+      "location": "São Paulo, Brazil",
+      "bullets": [
+        "Developed and delivered entrepreneurship education content for USP's innovation agency",
+        "Facilitated workshops on lean startup, business model canvas, and go-to-market strategy for student founders",
+        "Supported early-stage startups through the incubation process with mentoring and resources",
+        "Organized events (Demo Days, hackathons) connecting students with investors and companies",
+        "Co-authored educational materials on innovation methodology and entrepreneurship"
+      ],
+      "keywords": [
+        "entrepreneurship education",
+        "innovation",
+        "lean startup",
+        "business model canvas",
+        "startup incubation",
+        "workshop facilitation",
+        "content creation"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "State University",
+      "degree": "Master of Science",
+      "field": "Complex Systems Modeling",
+      "start_date": "2020",
+      "end_date": "2023",
+      "notes": "Research focused on applying complex systems theory to organizational and social dynamics. Developed skills in agent-based modeling and network analysis."
+    },
+    {
+      "institution": "State University",
+      "degree": "Bachelor of Business Administration",
+      "field": "Business Administration",
+      "start_date": "2010",
+      "end_date": "2015",
+      "notes": "Emphasis on Strategy and International Business. Participated in extracurricular entrepreneurship and innovation programs."
+    }
+  ],
+  "skills": [
+    "Microsoft Office (Excel, PowerPoint, Word)",
+    "Jira",
+    "Miro",
+    "Trello",
+    "Business planning",
+    "Marketing strategy",
+    "Product management",
+    "Innovation management",
+    "Financial modeling",
+    "Stakeholder management",
+    "Project management",
+    "Program design",
+    "Data analysis",
+    "Presentations & reporting",
+    "CRM tools",
+    "Google Workspace"
+  ],
+  "languages": [
+    {
+      "language": "Portuguese",
+      "level": "Native"
+    },
+    {
+      "language": "English",
+      "level": "Fluent (C1)"
+    },
+    {
+      "language": "Spanish",
+      "level": "Fluent (B2)"
+    },
+    {
+      "language": "French",
+      "level": "Basic (A2)"
+    }
+  ],
+  "certifications": [],
+  "extra_sections": {}
+}

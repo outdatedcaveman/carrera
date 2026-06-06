@@ -1,0 +1,19 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Carrera logo mark">
+  <title>Carrera</title>
+  <!-- Rounded tile background -->
+  <rect width="128" height="128" rx="28" fill="#0D9488"/>
+  <!-- Subtle top-left highlight for a hint of depth -->
+  <rect width="128" height="128" rx="28" fill="url(#carrera-gloss)" opacity="0.15"/>
+  <!-- Open "C" arc — career trajectory -->
+  <path d="M92 44 C 82 32, 60 28, 48 40 C 36 52, 36 76, 48 88 C 60 100, 82 96, 92 84"
+        stroke="#FFFFFF" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <!-- Forward arrow in the C's mouth — movement, acceleration -->
+  <path d="M68 64 L 92 64 M 82 54 L 92 64 L 82 74"
+        stroke="#FBBF24" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <defs>
+    <linearGradient id="carrera-gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>

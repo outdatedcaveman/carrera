@@ -1,0 +1,210 @@
+{
+  "full_name": "João Silva",
+  "email": "joao.silva@example.com",
+  "phone": "",
+  "location": "São Paulo, Brasil",
+  "linkedin": "linkedin.com/in/joaosilva",
+  "website": "",
+  "summary": "Profissional de estratégia e operações com mais de 10 anos de experiência em gestão de portfólio, desenvolvimento de negócios, gestão de programas e inovação. Histórico comprovado de impulsionar o crescimento organizacional, gerir parcerias institucionais e liderar equipes multifuncionais nos setores financeiro, educacional e de impacto social. Mestre em Ciência da Computação pela Universidade Estadual.",
+  "experience": [
+    {
+      "company": "Acme Corp",
+      "title": "Analista de Gestão de Portfólio",
+      "start_date": "2022-01",
+      "end_date": null,
+      "location": "São Paulo, SP",
+      "bullets": [
+        "Gestão de relacionamentos B2B com investidores institucionais em portfólio residencial de real estate",
+        "Liderança de processos de fechamento financeiro para aquisições de imóveis e relatórios de investidores",
+        "Desenvolvimento de dashboards e relatórios de performance para stakeholders sênior utilizando Excel e ferramentas de BI",
+        "Coordenação de equipes multifuncionais (jurídico, operações, finanças) para cumprimento de prazos de negociação",
+        "Análise de métricas de portfólio incluindo taxa de ocupação, yield e TIR para embasar decisões de investimento"
+      ],
+      "keywords": [
+        "gestão de portfólio",
+        "investidores institucionais",
+        "B2B",
+        "modelagem financeira",
+        "real estate",
+        "TIR",
+        "relatórios",
+        "gestão de stakeholders",
+        "coordenação multifuncional"
+      ]
+    },
+    {
+      "company": "Soluções Criativas",
+      "title": "Líder de Pedagogia para Inovação",
+      "start_date": "2020-06",
+      "end_date": "2022-01",
+      "location": "São Paulo, SP",
+      "bullets": [
+        "Concepção e condução de programas de capacitação profissional com foco em inovação para gestores culturais e criativos do setor público",
+        "Desenvolvimento de currículo para workshops de empreendedorismo e modelo de negócios para mais de 200 participantes",
+        "Gestão de fornecedores e facilitadores para entrega de 15+ programas em São Paulo",
+        "Construção de frameworks de monitoramento e avaliação para acompanhar resultados e ROI dos programas",
+        "Colaboração com stakeholders governamentais (Secretaria de Cultura de SP) na estratégia programática"
+      ],
+      "keywords": [
+        "design de programas",
+        "desenvolvimento curricular",
+        "treinamento",
+        "facilitação",
+        "inovação",
+        "empreendedorismo",
+        "setor público",
+        "gestão de stakeholders",
+        "monitoramento e avaliação"
+      ]
+    },
+    {
+      "company": "Delta Finanças",
+      "title": "Head de Negócios",
+      "start_date": "2019-03",
+      "end_date": "2020-06",
+      "location": "São Paulo, SP",
+      "bullets": [
+        "Liderança da estratégia comercial e desenvolvimento de negócios para gestora independente de investimentos",
+        "Construção e manutenção de pipeline de clientes, gerenciando relacionamentos com pessoas de alta renda",
+        "Desenvolvimento de estratégia de marketing e posicionamento para diferenciar a empresa no mercado",
+        "Coordenação de compliance regulatório e processos operacionais em parceria com equipe de conformidade",
+        "Crescimento de receita de 30%+ por meio de captação de novos clientes e upselling de contas existentes"
+      ],
+      "keywords": [
+        "desenvolvimento de negócios",
+        "estratégia comercial",
+        "gestão de clientes",
+        "marketing",
+        "assessoria de investimentos",
+        "crescimento de receita",
+        "compliance",
+        "CRM"
+      ]
+    },
+    {
+      "company": "Fundação Global de Tecnologia",
+      "title": "Gerente de Programas",
+      "start_date": "2017-08",
+      "end_date": "2019-03",
+      "location": "São Paulo, SP",
+      "bullets": [
+        "Gestão de programas de aceleração empreendedora atendendo 500+ PMEs em todo o Brasil",
+        "Coordenação de rede de 50+ mentores e especialistas para entrega de coortes",
+        "Acompanhamento de KPIs e elaboração de relatórios de impacto trimestrais para liderança global da fundação",
+        "Gestão de relacionamentos com parceiros universitários e corporativos para co-entrega dos programas",
+        "Design e iteração do currículo dos programas com base em feedback dos participantes e dados de impacto"
+      ],
+      "keywords": [
+        "gestão de programas",
+        "empreendedorismo",
+        "PME",
+        "mentoria",
+        "KPIs",
+        "medição de impacto",
+        "gestão de parcerias",
+        "design curricular"
+      ]
+    },
+    {
+      "company": "Universidade Estadual",
+      "title": "Assistente Executivo do Diretor",
+      "start_date": "2015-03",
+      "end_date": "2017-08",
+      "location": "São Paulo, SP",
+      "bullets": [
+        "Apoio ao Diretor da FEA-USP em agenda, comunicações e iniciativas estratégicas",
+        "Coordenação de projetos interdepartamentais e acompanhamento de ações de reuniões de diretoria",
+        "Elaboração de briefings, apresentações e relatórios para stakeholders internos e externos",
+        "Gestão de parcerias com recrutadores corporativos e eventos da rede de alumni",
+        "Interlocução com órgãos governamentais e parceiros universitários internacionais"
+      ],
+      "keywords": [
+        "suporte executivo",
+        "coordenação de stakeholders",
+        "gestão de projetos",
+        "comunicações",
+        "relações institucionais",
+        "gestão de eventos"
+      ]
+    },
+    {
+      "company": "Agência de Inovação",
+      "title": "Especialista em Educação Empreendedora",
+      "start_date": "2013-06",
+      "end_date": "2015-03",
+      "location": "São Paulo, SP",
+      "bullets": [
+        "Desenvolvimento e entrega de conteúdo de educação empreendedora para a agência de inovação da USP",
+        "Facilitação de workshops sobre lean startup, business model canvas e estratégia go-to-market para fundadores estudantes",
+        "Apoio a startups em fase inicial no processo de incubação com mentoria e recursos",
+        "Organização de eventos (Demo Days, hackathons) conectando estudantes com investidores e empresas",
+        "Co-autoria de materiais educacionais sobre metodologia de inovação e empreendedorismo"
+      ],
+      "keywords": [
+        "educação empreendedora",
+        "inovação",
+        "lean startup",
+        "business model canvas",
+        "incubação de startups",
+        "facilitação de workshops",
+        "criação de conteúdo"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidade Estadual",
+      "degree": "Mestre em Ciências",
+      "field": "Modelagem de Sistemas Complexos",
+      "start_date": "2020",
+      "end_date": "2023",
+      "notes": "Pesquisa focada na aplicação da teoria de sistemas complexos a dinâmicas organizacionais e sociais. Desenvolveu habilidades em modelagem baseada em agentes e análise de redes."
+    },
+    {
+      "institution": "Universidade Estadual",
+      "degree": "Bacharel em Administração de Empresas",
+      "field": "Administração de Empresas",
+      "start_date": "2010",
+      "end_date": "2015",
+      "notes": "Ênfase em Estratégia e Negócios Internacionais. Atuação em programas extracurriculares de empreendedorismo e inovação."
+    }
+  ],
+  "skills": [
+    "Microsoft Office (Excel, PowerPoint, Word)",
+    "Jira",
+    "Miro",
+    "Trello",
+    "Planejamento de negócios",
+    "Estratégia de marketing",
+    "Gestão de produto",
+    "Gestão da inovação",
+    "Modelagem financeira",
+    "Gestão de stakeholders",
+    "Gestão de projetos",
+    "Design de programas",
+    "Análise de dados",
+    "Apresentações e relatórios",
+    "Ferramentas de CRM",
+    "Google Workspace"
+  ],
+  "languages": [
+    {
+      "language": "Português",
+      "level": "Nativo"
+    },
+    {
+      "language": "Inglês",
+      "level": "Fluente (C1)"
+    },
+    {
+      "language": "Espanhol",
+      "level": "Fluente (B2)"
+    },
+    {
+      "language": "Francês",
+      "level": "Básico (A2)"
+    }
+  ],
+  "certifications": [],
+  "extra_sections": {}
+}

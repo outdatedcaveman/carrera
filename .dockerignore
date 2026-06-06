@@ -1,0 +1,25 @@
+# Git
+.git
+.github
+
+# Python
+**/__pycache__
+**/*.py[cod]
+.venv
+venv
+**/.eggs
+**/*.egg-info
+
+# Node / frontend source (image only needs frontend/dist)
+frontend/node_modules
+frontend/src
+
+# Local / build artifacts not needed in image
+**/*.db
+**/*.sqlite3
+*.log
+.env
+
+# PyInstaller / local bundles
+dist
+build

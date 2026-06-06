@@ -1,0 +1,25 @@
+# Build requires a frontend bundle: cd frontend && npm install && npm run build
+services:
+  app:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    image: carrera:latest
+    container_name: carrera
+    ports:
+      - "3000:8000"
+    volumes:
+      - carrera_data:/app/data
+    environment:
+      - APP_ENV=production
+      - DATABASE_URL=sqlite:///./data/carrera.db
+      - PDF_OUTPUT_DIR=./data/pdfs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/dashboard/stats"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  carrera_data:
