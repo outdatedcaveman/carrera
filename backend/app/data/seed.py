@@ -14,7 +14,7 @@ def seed_base_resumes(db: Session) -> None:
         return
 
     # Check for personal CV files first (local dev environment), fall back to public resume templates
-    for lang, filenames in [("en", ["personal_cv_en.json", "resume_en.json"]), 
+    for lang, filenames in [("en", ["personal_cv_en.json", "resume_en.json"]),
                              ("pt", ["personal_cv_pt.json", "resume_pt.json"])]:
         data = None
         loaded_filename = None
