@@ -31,9 +31,16 @@ Everything runs on your machine. Your CV and search data never leave your comput
 
 ## Install & run
 
-Three ways, pick one:
+### Easiest: download the app (Windows)
 
-### 1. Desktop app (Windows)
+1. Grab **Carrera-windows.zip** from [Releases](https://github.com/outdatedcaveman/carrera/releases).
+2. Extract it anywhere and run **Carrera.exe**. No Python, no build step.
+
+Data lives in `%USERPROFILE%\.carrera\`.
+
+Prefer to build or run headless? Three more ways below.
+
+### 1. Build the desktop app yourself (Windows)
 
 ```powershell
 # Build once
@@ -46,7 +53,7 @@ powershell -ExecutionPolicy Bypass -File scripts\install-shortcut.ps1
 # Double-click the Carrera icon on your desktop.
 ```
 
-The exe lives at `dist\Carrera\Carrera.exe`. Data in `%USERPROFILE%\.carrera\`.
+The exe lives at `dist\Carrera\Carrera.exe`.
 
 ### 2. Docker
 
