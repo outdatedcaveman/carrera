@@ -42,7 +42,7 @@ Thumbs.db
 .env
 
 # Local personal CV data
-backend/app/data/bruno_cv_*.json
+backend/app/data/personal_cv_*.json
 
 # Git backups
 .git.bak/
