@@ -47,3 +47,6 @@ backend/app/data/personal_cv_*.json
 # Git backups
 .git.bak/
 
+
+# Dev-mode database + generated PDFs (launcher.py run from source)
+/data/
