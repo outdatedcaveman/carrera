@@ -44,6 +44,7 @@ Prefer to build or run headless? Three more ways below.
 
 ```powershell
 # Build once
+pip install -r backend/requirements.txt -r requirements-desktop.txt
 cd frontend ; npm install ; npm run build ; cd ..
 pyinstaller carrera.spec --noconfirm
 

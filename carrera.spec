@@ -7,6 +7,11 @@ import sys, os
 from pathlib import Path
 from PyInstaller.utils.hooks import collect_data_files, collect_submodules
 
+try:  # without pywebview the exe silently degrades to the browser fallback
+    import webview  # noqa: F401
+except ImportError:
+    raise SystemExit("carrera.spec: pywebview is missing - pip install -r requirements-desktop.txt")
+
 ROOT = Path(SPECPATH)
 SITE = Path(sys.executable).parent / "Lib" / "site-packages"
 

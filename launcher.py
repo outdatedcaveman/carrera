@@ -10,6 +10,13 @@ import time
 import socket
 import logging
 
+# A windowed (console=False) PyInstaller exe has sys.stdout/sys.stderr = None.
+# uvicorn's logging setup calls .isatty() on them and the server thread dies
+# before binding, so the app silently exits after the 30 s wait. Give them sinks.
+for _name in ("stdout", "stderr"):
+    if getattr(sys, _name) is None:
+        setattr(sys, _name, open(os.devnull, "w", encoding="utf-8"))
+
 # ── Path setup for PyInstaller frozen bundle ───────────────────────────────────
 if getattr(sys, "frozen", False):
     # Running as compiled .exe — all files extracted to sys._MEIPASS
