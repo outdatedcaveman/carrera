@@ -10,12 +10,30 @@ from PyInstaller.utils.hooks import collect_data_files, collect_submodules
 ROOT = Path(SPECPATH)
 SITE = Path(sys.executable).parent / "Lib" / "site-packages"
 
+
+def _tracked_data_files():
+    """Only git-TRACKED files under backend/app/data are bundled.
+
+    The folder also holds git-ignored personal overrides (personal_cv_*.json);
+    bundling the whole directory once shipped a real CV inside the public
+    release zip. Tracked-only makes that class of leak impossible.
+    """
+    import subprocess
+    out = subprocess.run(
+        ["git", "-C", str(ROOT), "ls-files", "-z", "--", "backend/app/data"],
+        capture_output=True, check=True).stdout.decode().split("\0")
+    files = [f for f in out if f and not f.endswith((".pyc",))]
+    if not files:
+        raise SystemExit("carrera.spec: no tracked data files found (is this a git checkout?)")
+    return [(str(ROOT / f), str(Path(f).parent).replace("\\", "/")) for f in files]
+
+
 # ── Collect data ───────────────────────────────────────────────────────────────
 datas = [
     # Frontend build (served as static files)
     (str(ROOT / "frontend" / "dist"), "frontend/dist"),
-    # CV seed JSONs
-    (str(ROOT / "backend" / "app" / "data"), "backend/app/data"),
+    # CV seed JSONs — tracked files only (never the git-ignored personal ones)
+    *_tracked_data_files(),
     # pywebview assets (HTML templates, js)
     *collect_data_files("webview"),
     # APScheduler timezone data
